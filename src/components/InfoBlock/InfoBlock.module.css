@@ -1,0 +1,40 @@
+@keyframes my-opacity-transform{
+    0%{transform:scale(0);opacity:0}
+    10%{transform:scale(0.1);opacity:.1}
+    20%{transform:scale(0.2);opacity:.2}
+    30%{transform:scale(0.3);opacity:.3}
+    40%{transform:scale(0.4);opacity:.4}
+    50%{transform:scale(0.5);opacity:.5}
+    60%{transform:scale(0.6);opacity:.6}
+    70%{transform:scale(0.7);opacity:.7}
+    80%{transform:scale(0.8);opacity:.8}
+    90%{transform:scale(0.9);opacity:.9}
+    100%{transform:scale(1);opacity:1}}
+
+.infoBlock {
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: 10px;
+    padding: 15px;
+    border: 1px solid #000;
+    width: auto;
+    background-color: bisque;
+    animation: my-opacity-transform 0.7s ease ;
+
+}
+
+.mainInfo {
+    display: flex;
+    justify-content: center;
+
+}
+
+.description {
+    font-size: 22px;
+    font-style: italic;
+    margin-bottom: 8px;
+}
+
+.info {
+    margin: 0;
+}
